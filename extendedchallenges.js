@@ -17,7 +17,7 @@ if (hours <= 40) {
 console.log(`You worked ${extraHours} hours over 40.`)  
 }
 
-console.log(`You worked ${hours} hours this week, so your hourly wage was $${wage}, and your total gross pay is $${pay}.`);
+console.log(`You worked ${hours} hours this week, so your average hourly wage was $${wage}, and your total gross pay is $${pay}.`);
 
 
 
