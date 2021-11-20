@@ -23,7 +23,7 @@ let counter = 0;
 
  while (true) {
     let randomNumber = Math.floor(Math.random() * 10) + 1;
-    
+
     if (randomNumber !== 5) {
     counter++;
     console.log(`${randomNumber} !== 5`);
@@ -35,3 +35,5 @@ let counter = 0;
     break;
     }
 }
+
+
