@@ -29,7 +29,7 @@ let paycheck = 0;
 let numberOfWeeks = 0;
 
 
-while ( paycheck < 1000000 ) {
+while ( paycheck <= 1000000 ) {
     paycheck += wageHourly * hoursWorked;
     numberOfWeeks += 1;
 }
