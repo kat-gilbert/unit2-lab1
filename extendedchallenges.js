@@ -1,4 +1,4 @@
-console.log("--------Extended Chanllenges---------");
+console.log("--------Extended Challenges---------");
 
 
 let hours = parseInt( prompt("How many hours did you work?"));
