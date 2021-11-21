@@ -3,21 +3,21 @@ console.log("--------Extended Challenges---------");
 
 let hours = parseInt( prompt("How many hours did you work?"));
 let pay = hours * 10;
+let wage = 10;
 
 if (hours <= 40) {
     pay = pay;
-    wage = 10;
 }
     else if (hours > 40) {
     let extraHours = (hours - 40);
     let extraPay = extraHours * 15;
-    pay = 400 + extraPay;
+    pay = (40 * wage) + extraPay;
     wage = pay / hours;
     
-console.log(`You worked ${extraHours} hours over 40.`)  
+console.log(`You worked ${extraHours} hours over the standard 40 hours.`)  
 }
 
-console.log(`You worked ${hours} hours this week, so your average hourly wage was $${wage}, and your total gross pay is $${pay}.`);
+console.log(`You worked ${hours} hours this pay period, so your average hourly wage was $${wage}, and your total gross pay is $${pay}.`);
 
 
 
